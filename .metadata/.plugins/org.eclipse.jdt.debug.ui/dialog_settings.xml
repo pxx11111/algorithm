@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.jdt.debug.ui.MAIN_METHOD_SELECTION_DIALOG">
+		<item value="true" key="ShowStatusLine"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;History&gt;&#x0D;&#x0A;&lt;historyRootNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=Lecture12,Java GUI/src&amp;lt;cn.edu.gui.jbutton.jp{ChatGUI.java[ChatGUI&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=project-81/src&amp;lt;cn.edu.jp{Client.java[Client&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=project-81/src&amp;lt;cn.edu.jp{server.java[server&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=lecture04,common class/src&amp;lt;cn.edu.split{TestSplit.java[TestSplit&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=lecture04,common class/src&amp;lt;cn.edu.change{ByteToChars.java[ByteToChars&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=lecture05,reflecter/src&amp;lt;cn.edu.jp.reflect{ReflectTest.java[ReflectTest&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=lecture05,reflecter/src&amp;lt;cn.edu.jp.reflect{ReflectTest.java[TestArguments&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=test/src&amp;lt;cn.edu.jp.reflect{ReflectTest.java[ReflectTest&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=lecture08,thread/src&amp;lt;cn.edu.thread.interrupt{InterruptTest.java[InterruptTest&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=lecture09,io/src&amp;lt;cn.edu.io.reader{JavaIODemo.java[JavaIODemo&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=test.jogl.demos/src&amp;lt;com.gl3dgame.third.leida.feiji{ThirdExp.java[ThirdExp&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=PaChong/F:\/eclipse source\/PaChong\/jsoup-1.9.2.jar&amp;lt;org.jsoup.examples(HtmlToPlainText.class[HtmlToPlainText&lt;/infoNode&gt;&#x0D;&#x0A;&lt;/historyRootNode&gt;&#x0D;&#x0A;&lt;/History&gt;" key="History"/>
+		<section name="DialogBoundsSettings">
+			<item value="600" key="DIALOG_WIDTH"/>
+			<item value="1|微软雅黑|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|微软雅黑" key="DIALOG_FONT_NAME"/>
+			<item value="500" key="DIALOG_HEIGHT"/>
+			<item value="669" key="DIALOG_X_ORIGIN"/>
+			<item value="192" key="DIALOG_Y_ORIGIN"/>
+		</section>
+	</section>
+</section>

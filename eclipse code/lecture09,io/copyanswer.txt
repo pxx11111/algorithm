@@ -1,0 +1,6 @@
+下面哪个是编译java程序的命令（）
+A.javac
+B.java
+c.jdk
+d.appletviewer
+A

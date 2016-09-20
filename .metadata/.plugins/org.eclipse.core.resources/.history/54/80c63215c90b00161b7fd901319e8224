@@ -1,0 +1,21 @@
+package com.pxx;
+
+
+import java.util.Scanner;
+
+public class Array {
+	public static void main(String[] args) throws Exception{
+		Scanner sc=new Scanner(System.in);
+		int[]a = null;
+		for(int i=0;i<a.length;i++)
+		{
+			a[i]=sc.nextInt();
+		}
+		for(int j:a)
+		{
+			System.out.print(j);
+		}
+		
+	}
+
+}

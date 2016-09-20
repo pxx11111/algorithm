@@ -1,0 +1,13 @@
+package com.pxx;
+public class Test{
+public static void main(String[] args) {
+ String str="idlada";
+ char [] ch=str.toCharArray();
+ ch[1]=0;
+ for (char c : ch) {
+	System.out.println(c);
+}
+ 
+ 
+}
+}

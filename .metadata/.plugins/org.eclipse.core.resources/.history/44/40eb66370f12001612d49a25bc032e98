@@ -1,0 +1,38 @@
+package com.pxx;
+
+public class Kuaipai {
+public static void main(String[] args) {
+	int[] a={1,5,6,98,2};
+	part(a,0,4);
+	for(int i=0;i<5;i++)
+	{
+		System.out.println(a[i]);
+	}
+}
+public static void part(int a[],int low,int high)
+{
+	int i=low,j=high;
+	int key=a[i];
+	if(low>=high)
+	{
+		return;
+	}
+	while(i<j)
+	{
+		while(i<j&&key<=a[j])
+		{
+			j--;
+		}
+		a[i]=a[j];
+		while(i<j&&key<=a[j])
+		{
+			i++;
+		}
+		a[j]=a[i];
+		key=a[i];
+		part(a,low,i-1);
+		part(a,i+1,high);
+	}
+}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;cn.edu.jp.reflect&apos; to &apos;test/src/com.pxx&apos;&#x0D;&#x0A;- Original project: &apos;lecture05,reflecter&apos;&#x0D;&#x0A;- Destination element: &apos;test/src/com.pxx&apos;&#x0D;&#x0A;- Original element: &apos;lecture05,reflecter/src/cn.edu.jp.reflect&apos;" description="Copy package" destination="=test/src&lt;com.pxx" element1="/src&lt;cn.edu.jp.reflect" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1462984665614" version="1.0"/>
+</session>

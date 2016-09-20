@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;03_在内部存储中读写文件&apos;" deleteContents="false" description="Delete resource &apos;03_在内部存储中读写文件&apos;" element1="/03_在内部存储中读写文件" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1471768301896"/>&#x0A;<refactoring comment="Delete resource &apos;03_在内部存储中读写文件&apos;" deleteContents="false" description="Delete resource &apos;03_在内部存储中读写文件&apos;" element1="/03_在内部存储中读写文件" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1471768583981"/>
+</session>

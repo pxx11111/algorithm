@@ -1,0 +1,23 @@
+package com.pxx;
+
+public class ZiFuChuanBaoHan {
+public static void main(String[] args) {
+  	String a1="aba";
+  	String b1="a";
+  	System.out.println(StringContain(a1, b1));
+}
+public static boolean StringContain(String a1,String b1) 
+{ char[] a=a1.toCharArray();
+   char[]b=b1.toCharArray();
+	for (int i = 0; i < b.length; ++i) 
+	{ 
+		int j; 
+		for (j = 0; (j < a.length) && (a[j] != b[i]); ++j) ; 
+		if (j >= a.length) 
+		{ 
+			return false; 
+			} 
+		} 
+	return true; 
+	}
+}

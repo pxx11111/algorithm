@@ -1,0 +1,4 @@
+#Wed Apr 27 20:19:50 CST 2016
+__DEFAULT__=false
+org.eclipse.help.ui.localSearch.master=true
+expression=reverse

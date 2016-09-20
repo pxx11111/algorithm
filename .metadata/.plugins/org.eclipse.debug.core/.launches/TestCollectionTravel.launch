@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/lecture06,collection and map/src/cn/edu/travel/TestCollectionTravel.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="cn.edu.travel.TestCollectionTravel"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="lecture06,collection and map"/>
+</launchConfiguration>

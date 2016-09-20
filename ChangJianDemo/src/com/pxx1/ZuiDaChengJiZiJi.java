@@ -1,0 +1,23 @@
+package com.pxx1;
+
+public class ZuiDaChengJiZiJi {
+	public static void main(String[] args) {
+		double []a={-2.5,4,0,3,0.5,8,1};
+	   System.out.println( MaxProductSubstring(a, a.length));
+		
+	}
+	public static double MaxProductSubstring(double []a, int length)
+	{
+	    double maxEnd = a[0];
+	    double minEnd = a[0];
+	    double maxResult = a[0];
+	    for (int i = 1; i < length; ++i)
+	    {
+	        double end1 = maxEnd * a[i], end2 = minEnd * a[i];
+	        maxEnd = Math.max(Math.max(end1, end2), a[i]);
+	        minEnd = Math.min(Math.min(end1, end2), a[i]);
+	        maxResult = Math.max(maxResult, maxEnd);
+	    }
+	    return maxResult; 
+	}
+}

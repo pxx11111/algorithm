@@ -1,0 +1,37 @@
+package com.xunlei;
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class Test1 {
+public static void main(String[] args) {
+	Scanner sca=new Scanner(System.in);
+    String str=sca.nextLine();
+    String[] str1=str.substring(1, str.length()-1).split(",");
+    int num=0;
+    for (int i = 0; i < str1.length; i++) {
+		num=Math.max(num, str1[i].length());
+	}
+	for (int i = 0; i < str1.length; i++) {
+		for (int j = i; j < str1.length; j++) {
+		if(Integer.valueOf(str1[i].charAt(0)-48)!=Integer.valueOf(str1[j].charAt(0)-48)){
+			if(Integer.valueOf(str1[i].charAt(0)-48)<Integer.valueOf(str1[j].charAt(0)-48))
+			swap(str1,i,j);
+		}else{
+			for (int j2 = 1; j2 < num; j2++) {
+				if(Integer.valueOf(str1[i].charAt(j2)-48)<Integer.valueOf(str1[j].charAt(j2)-48))
+					swap(str1,i,j);
+			}
+		}
+		
+	}}
+	
+	
+}
+public  static void swap(String[] str,int i,int j)
+{
+	String temp=str[i];
+	str[i]=str[j];
+	str[j]=temp;
+}
+}

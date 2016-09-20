@@ -1,0 +1,27 @@
+package com.pxx;
+
+public class ZiFuChuanBaoHanQianMingFa {
+public static void main(String[] args) {
+	String str="audkad";
+    String str1="aud";
+    System.out.println(StringContain(str, str1));
+}
+static boolean StringContain(String a1,String b1)
+{
+	char[]a=a1.toCharArray();
+	char[]b=b1.toCharArray();
+    int hash = 0;
+    for (int i = 0; i < a.length; ++i)
+    {
+        hash |= (1 << (a[i] - 'A'));
+    }
+    for (int i = 0; i < b.length; ++i)
+    {
+        if ((hash & (1 << (b[i] - 'A'))) == 0)
+        {
+            return false;
+        }
+    }
+    return true;
+}
+}

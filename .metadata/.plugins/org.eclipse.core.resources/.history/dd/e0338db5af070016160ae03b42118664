@@ -1,0 +1,22 @@
+package cn.edu;
+
+import java.io.File;
+
+import javax.swing.JOptionPane;
+
+public class Input {
+	// 键盘输入的是字节流；
+	public static void main(String[] args) {
+		String path = null;
+		StringBuilder sb = new StringBuilder();
+		System.out.print("请输入路径：");
+		// BufferedReader in= new BufferedReader(new FileReader());
+		path = JOptionPane.showInputDialog("请输入路径：");// 返回的是字符串
+		File file = new File(path);
+		File[] allfile = file.listFiles();
+		for (File f : allfile) {
+			sb.append(f.getName()).append("\n");
+		}
+		JOptionPane.showMessageDialog(null, sb.toString());
+	}
+}

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item value="false" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="F:\eclipse source\project-kuaipai"/>
+			<item value="F:\eclipse source\project-Heap Sort"/>
+			<item value="E:\java\lecture08,thread"/>
+			<item value="F:\eclipse source\程序员代码面试指南-代码"/>
+			<item value="E:\迅雷下载\左程云\程序员代码面试指南-代码\BookCode"/>
+			<item value="D:\day26_Android应用开发-数据存储和界面展现\day02_Android应用开发-数据存储和界面展现\代码\03_在内部存储中读写文件"/>
+			<item value="D:\day28_Android应用开发-网络编程\day04_Android应用开发-网络编程\代码\04_HTML源文件查看器"/>
+			<item value="D:\day26_Android应用开发-数据存储和界面展现\day02_Android应用开发-数据存储和界面展现\代码\11_Xml序列化器"/>
+			<item value="D:\day27_Android应用开发-数据存储和界面展现\day03_Android应用开发-数据存储和界面展现\代码\03_把数据显示至屏幕"/>
+			<item value="E:\java"/>
+			<item value="F:\workspace"/>
+			<item value="F:\eclipse source\project-zishu"/>
+			<item value="F:\eclipse source\project-sis"/>
+			<item value="F:\eclipse source\project-DH"/>
+			<item value="E:\java\lecture02,dataType"/>
+			<item value="F:\51dp\jogl_demos\test.jogl.demos"/>
+			<item value="F:\eclipse source\Copy of test.jogl.demos"/>
+			<item value="C:\Users\pxx\Desktop\1b4f23cc440c04cf690a59134a8d500a\test.jogl.demos"/>
+			<item value="C:\Users\pxx\Desktop\javacc 3 zuixin\javaCCProject"/>
+			<item value="E:\java\lecture08,thread pool"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+	<section name="NewWizardAction">
+		<item value="org.eclipse.ui.wizards.new.project" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+	</section>
+	<section name="BasicNewProjectResourceWizard">
+	</section>
+	<section name="org.eclipse.ui.dialogs.FilteredResourcesSelectionDialog">
+		<item value="false" key="FilterByLocation"/>
+		<item value="true" key="ShowStatusLine"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;History&gt;&#x0D;&#x0A;&lt;historyRootNode/&gt;&#x0D;&#x0A;&lt;/History&gt;" key="History"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;workingSet workingSetName=&quot;&quot;/&gt;" key="WorkingSet"/>
+		<item value="false" key="ShowDerived"/>
+		<section name="DialogBoundsSettings">
+			<item value="600" key="DIALOG_WIDTH"/>
+			<item value="1|微软雅黑|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|微软雅黑" key="DIALOG_FONT_NAME"/>
+			<item value="500" key="DIALOG_HEIGHT"/>
+			<item value="330" key="DIALOG_X_ORIGIN"/>
+			<item value="183" key="DIALOG_Y_ORIGIN"/>
+		</section>
+	</section>
+	<section name="SaveAsDialogSettings">
+		<item value="613" key="DIALOG_WIDTH"/>
+		<item value="1|微软雅黑|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|微软雅黑" key="DIALOG_FONT_NAME"/>
+		<item value="643" key="DIALOG_HEIGHT"/>
+		<item value="0" key="DIALOG_X_ORIGIN"/>
+		<item value="-44" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

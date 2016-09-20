@@ -1,0 +1,41 @@
+
+package com.pxx;
+
+public class LCScopy {
+	static  String str1 = "cnblogs";
+	 static String str2 = "belong";
+	static int dp[][]=new int [str1.length()+1][str1.length()+1];
+	  public static void main(String[] args) {
+		
+		  LCS(str1, str2);
+
+         //只要拿出矩阵最后一个位置的数字即可
+        System.out.println("当前最大公共子序列的长度为:"+ dp[str1.length()][str2.length()]);
+
+         
+     }
+public static void LCS(String str,String str1)
+{
+  
+   	for (int i = 0; i <=dp.length; i++) {
+		dp[i][0]=0;
+	}
+   	for (int i = 0; i <= dp[0].length; i++) {
+		dp[0][i]=0;
+	}
+   	for (int i = 0; i <=dp.length; i++) {
+		for (int j = 0; j <= dp.length; j++) {
+			if(str.charAt(i-1)==str1.charAt(j-1))
+			{
+				dp[i][j]=dp[i-1][j-1];
+			}else
+			{
+				dp[i][j]=Math.max(dp[i][j-1], dp[i-1][j]);
+			}
+		
+		}
+		
+	}
+   
+}
+}
